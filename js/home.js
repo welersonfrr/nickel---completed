@@ -1,4 +1,4 @@
-const myModal = new bootstrap.Modal("#transaction-modal");
+const myModal = new bootstrap.Modal("#transaction-modal"); 
 let logged = sessionStorage.getItem("logged");
 const session = localStorage.getItem("session");
 let data = {
